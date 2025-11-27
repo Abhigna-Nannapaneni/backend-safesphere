@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/help")
-@CrossOrigin(origins = "*") // ✅ For your React frontend
+// ✅ For your React frontend
 public class HelpRequestController {
 
     @Autowired
