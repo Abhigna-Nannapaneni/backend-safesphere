@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/api/volunteer")
-@CrossOrigin(origins = "*") // ✅ allows React frontend to connect
 public class VolunteerController {
 
     @Autowired
